@@ -1,0 +1,16 @@
+.student-tutor/
+.env
+docs/superpowers/
+.superpowers/
+.venv/
+__pycache__/
+*.pyc
+*.pdf
+*.env
+.env.*
+!.env.example
+.pytest_cache/
+Thumbs.db
+.DS_Store
+models/
+dist/

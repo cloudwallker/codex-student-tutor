@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1000" viewBox="0 0 640 1000" role="img" aria-labelledby="title description">
+  <title id="title">Codex Student Tutor — conceptual learning workflow</title>
+  <desc id="description">Three Chinese tutoring skills use student-provided textbook text or an existing PDF text layer, diagnose a learning gap, verify online question patterns, guide original practice, and keep local records by nickname for later review. Version 1 does not use OCR.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M1 1 L6 4 L1 7" fill="none" stroke="#73988c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
+      .heading { fill: #153a32; font-size: 30px; font-weight: 700; }
+      .subtitle { fill: #47665e; font-size: 20px; }
+      .label { fill: #153a32; font-size: 24px; font-weight: 600; }
+      .detail { fill: #47665e; font-size: 19px; }
+      .number { fill: #ffffff; font-size: 22px; font-weight: 700; text-anchor: middle; }
+      .pill { fill: #153a32; font-size: 17px; text-anchor: middle; }
+      .footer { fill: #47665e; font-size: 18px; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="640" height="1000" rx="24" fill="#f3f7f4"/>
+  <text x="48" y="58" class="heading">Codex Student Tutor</text>
+  <text x="48" y="93" class="subtitle">从教材与问题，到独立应用与复习</text>
+  <rect x="48" y="115" width="164" height="34" rx="17" fill="#e1eee6"/>
+  <rect x="226" y="115" width="170" height="34" rx="17" fill="#e1eee6"/>
+  <rect x="410" y="115" width="182" height="34" rx="17" fill="#e1eee6"/>
+  <text x="130" y="138" class="pill">Primary · 小学</text>
+  <text x="311" y="138" class="pill">Junior · 初中</text>
+  <text x="501" y="138" class="pill">Senior · 高中</text>
+
+  <rect x="48" y="180" width="544" height="114" rx="18" fill="#ffffff" stroke="#d3e1d8"/>
+  <circle cx="85" cy="220" r="21" fill="#287561"/>
+  <text x="85" y="228" class="number">1</text>
+  <text x="123" y="221" class="label">教材文字与当前问题</text>
+  <text x="123" y="251" class="detail">Textbook text + a student's question</text>
+  <text x="123" y="278" class="detail">现有 PDF 文字层 / 直接输入文字</text>
+  <path d="M320 303 V329" stroke="#73988c" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="48" y="342" width="544" height="114" rx="18" fill="#ffffff" stroke="#d3e1d8"/>
+  <circle cx="85" cy="382" r="21" fill="#287561"/>
+  <text x="85" y="390" class="number">2</text>
+  <text x="123" y="383" class="label">读取已知内容，定位卡点</text>
+  <text x="123" y="413" class="detail">Read the material; diagnose one gap</text>
+  <text x="123" y="440" class="detail">按实际页码与已学方法，必要时补基础</text>
+  <path d="M320 465 V491" stroke="#73988c" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="48" y="504" width="544" height="114" rx="18" fill="#ffffff" stroke="#d3e1d8"/>
+  <circle cx="85" cy="544" r="21" fill="#287561"/>
+  <text x="85" y="552" class="number">3</text>
+  <text x="123" y="545" class="label">联网核实题型，编写练习</text>
+  <text x="123" y="575" class="detail">Verify sources; create and check practice</text>
+  <text x="123" y="602" class="detail">按教材原创 / 明确标注改编与来源</text>
+  <path d="M320 627 V653" stroke="#73988c" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="48" y="666" width="544" height="114" rx="18" fill="#ffffff" stroke="#d3e1d8"/>
+  <circle cx="85" cy="706" r="21" fill="#287561"/>
+  <text x="85" y="714" class="number">4</text>
+  <text x="123" y="707" class="label">逐步引导，尝试独立应用</text>
+  <text x="123" y="737" class="detail">Guide → student attempt → feedback</text>
+  <text x="123" y="764" class="detail">提示后完成与独立完成分别记录</text>
+  <path d="M320 789 V815" stroke="#73988c" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="48" y="828" width="544" height="114" rx="18" fill="#e1eee6" stroke="#c0d6c9"/>
+  <circle cx="85" cy="868" r="21" fill="#287561"/>
+  <text x="85" y="876" class="number">5</text>
+  <text x="123" y="869" class="label">保存证据，续学与复习</text>
+  <text x="123" y="899" class="detail">Local records → resume and review</text>
+  <text x="123" y="926" class="detail">按昵称保存 · 升年级保留课程历史</text>
+
+  <text x="320" y="978" class="footer">Conceptual workflow · v1 仅文字层，无 OCR</text>
+</svg>

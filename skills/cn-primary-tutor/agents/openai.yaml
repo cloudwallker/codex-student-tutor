@@ -1,0 +1,4 @@
+interface:
+  display_name: "小学全科家教"
+  short_description: "根据教材 PDF 与学习档案，为小学学生提供全科一对一辅导"
+  default_prompt: "使用 $cn-primary-tutor，读我的教材，找到卡点后一步步教我，并出题检查理解。"

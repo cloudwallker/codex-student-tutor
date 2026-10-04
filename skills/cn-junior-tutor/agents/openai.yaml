@@ -1,0 +1,4 @@
+interface:
+  display_name: "初中全科家教"
+  short_description: "根据教材 PDF 与学习档案，为初中学生提供全科一对一辅导"
+  default_prompt: "使用 $cn-junior-tutor，读我的教材并查看学习记录，找到卡点后逐步辅导，再出题验证。"

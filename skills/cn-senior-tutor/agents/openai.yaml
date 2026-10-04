@@ -1,0 +1,4 @@
+interface:
+  display_name: "高中全科家教"
+  short_description: "根据教材 PDF 与学习档案，为高中学生提供全科一对一辅导"
+  default_prompt: "使用 $cn-senior-tutor，按我的教材和学习记录逐步辅导，检查推导条件，并出题验证。"
