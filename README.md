@@ -118,6 +118,8 @@ python -B tools/verify_bundle.py
 
 The suite contains 64 tests: 22 for PDF extraction and 42 for learning records. The documented validation environment is Windows, Python 3.9.25, and pypdf 6.18.0. Tool checks do not establish long-term educational effectiveness.
 
+The [automated tool checks](.github/workflows/ci.yml) run these same commands on Ubuntu and Windows with Python 3.9 and 3.12 for pushes and pull requests. They can also be started manually from [GitHub Actions](https://github.com/cloudwallker/codex-student-tutor/actions/workflows/ci.yml). The checks use synthetic materials and temporary learning records; no textbook uploads, student data, or API keys are needed.
+
 ## Sources and Acknowledgments
 
 The tutoring instructions are original. Their organization and teaching approaches draw on the projects below; upstream prose, textbooks, and question banks are not copied into this bundle.

@@ -118,6 +118,8 @@ python -B tools/verify_bundle.py
 
 测试共 64 项：PDF 文字提取 22 项，本地学习档案 42 项。记录的验证环境为 Windows、Python 3.9.25、pypdf 6.18.0。工具验证不等于长期教学效果验证。
 
+现有验证也已接入[自动检查工作流](.github/workflows/ci.yml)：推送代码和提交拉取请求时，在 Ubuntu、Windows 与 Python 3.9、3.12 的组合中运行同样的单元测试和三份技能包检查，也可从 [GitHub Actions](https://github.com/cloudwallker/codex-student-tutor/actions/workflows/ci.yml) 手动启动。检查使用合成材料和临时学习档案，不需要上传教材、学生数据或 API 密钥。
+
 ## 来源与致谢
 
 教学指令原创编写，结构与教学方法参考以下项目；包内未复制上游正文、教材或题库。
