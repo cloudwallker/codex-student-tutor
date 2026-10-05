@@ -10,7 +10,7 @@ English | [中文](README_ZH.md)
 
 ![Conceptual workflow: textbook text and a question lead to diagnosis, verified question patterns, guided practice, and local review records.](docs/images/workflow.svg)
 
-*Conceptual workflow of the skills, not an application screenshot. Version 1 reads existing PDF text layers; it does not perform OCR.*
+*Conceptual workflow of the tutoring skills. Version 1 reads existing PDF text layers.*
 
 ## What you can do
 
