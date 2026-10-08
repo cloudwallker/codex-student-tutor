@@ -39,7 +39,7 @@ python -B tools/verify_bundle.py
 
 [GitHub Actions 工作流](../.github/workflows/ci.yml) 在代码推送、拉取请求和手动触发时运行上述验证。矩阵包含 Ubuntu、Windows，以及 Python 3.9、3.12，每个组合分别运行完整单元测试与三份技能包检查。工作流仅申请读取仓库内容的权限，不使用私人教材、真实学习档案或 API 密钥。
 
-此矩阵是持续验证配置；具体运行结果以 [Actions 记录](https://github.com/cloudwallker/codex-student-tutor/actions/workflows/ci.yml)为准。上方验证环境表记录的是已有本地实测，不代表所有矩阵任务已经运行成功。
+此矩阵是持续验证配置；具体运行结果以 [Actions 记录](https://github.com/cloudwallker/codex-student-tutor-skill/actions/workflows/ci.yml)为准。上方验证环境表记录的是已有本地实测，不代表所有矩阵任务已经运行成功。
 
 ## 测试要点
 

@@ -118,7 +118,7 @@ python -B tools/verify_bundle.py
 
 测试共 64 项：PDF 文字提取 22 项，本地学习档案 42 项。记录的验证环境为 Windows、Python 3.9.25、pypdf 6.18.0。工具验证不等于长期教学效果验证。
 
-现有验证也已接入[自动检查工作流](.github/workflows/ci.yml)：推送代码和提交拉取请求时，在 Ubuntu、Windows 与 Python 3.9、3.12 的组合中运行同样的单元测试和三份技能包检查，也可从 [GitHub Actions](https://github.com/cloudwallker/codex-student-tutor/actions/workflows/ci.yml) 手动启动。检查使用合成材料和临时学习档案，不需要上传教材、学生数据或 API 密钥。
+现有验证也已接入[自动检查工作流](.github/workflows/ci.yml)：推送代码和提交拉取请求时，在 Ubuntu、Windows 与 Python 3.9、3.12 的组合中运行同样的单元测试和三份技能包检查，也可从 [GitHub Actions](https://github.com/cloudwallker/codex-student-tutor-skill/actions/workflows/ci.yml) 手动启动。检查使用合成材料和临时学习档案，不需要上传教材、学生数据或 API 密钥。
 
 ## 来源与致谢
 
@@ -130,3 +130,7 @@ python -B tools/verify_bundle.py
 - [school-skills](https://github.com/Jellypod-Inc/school-skills)：示范、支架与独立应用。
 - [teacher-skill](https://github.com/chentao326/teacher-skill)：诊断与学科策略。
 - [pypdf 官方文字提取说明](https://pypdf.readthedocs.io/en/stable/user/extract-text.html)：文字层与图片识别的边界。
+
+## 许可证
+
+采用 [MIT 许可证](LICENSE)，© 2026 [cloudwallker](https://github.com/cloudwallker)。每个可独立安装的技能目录都包含相同的 LICENSE。第三方依赖及用户提供的教材、题库和学习记录仍遵循各自的权利与许可。
